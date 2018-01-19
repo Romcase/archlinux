@@ -55,6 +55,6 @@ RemStorageAvailability ${storages[2]}
 #smbget -R smb://roman:nemesis@127.0.0.1/datashare/sysbcp.conf
 #$sudo -u roman pg_dump howto_wiki > /data/galatea_wiki_$date.pgbck
 #echo galatea_$date.jpg
-#echo -e "Database backup...[\x1B[32mOK\e[0m]"
-#echo -e "Database backup...[\x1B[31mFailed\e[0m]"
+#echo -e "Database backup...[\x1B[32mOK\e[0m]"#
+#cecho -e "Database backup...[\x1B[31mFailed\e[0m]"
 #echo -e "Database backup...[\x1B[33mUnavailable\e[0m]"
